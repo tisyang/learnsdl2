@@ -8,5 +8,7 @@ link_directories("D:/mingw_dev_lib/lib")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 # turn on all compiler warnings
 add_definitions("-Wall")
+# C99 standard
+add_definitions("-std=c99")
 
 add_subdirectory(src)

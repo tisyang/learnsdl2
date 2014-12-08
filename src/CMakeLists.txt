@@ -1,2 +1,3 @@
 add_subdirectory(testsdl2_helloworld)
 add_subdirectory(lesson_01)
+add_subdirectory(lesson_02)
