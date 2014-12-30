@@ -76,6 +76,7 @@ close()
     SDL_DestroyWindow(g_window);
     g_window = NULL;
 
+    IMG_Quit();
     SDL_Quit();
 }
 
