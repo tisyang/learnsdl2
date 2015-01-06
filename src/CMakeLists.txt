@@ -1,9 +1,8 @@
-add_subdirectory(testsdl2_helloworld)
-add_subdirectory(lesson_01)
-add_subdirectory(lesson_02)
-add_subdirectory(lesson_03)
-add_subdirectory(lesson_04)
-add_subdirectory(lesson_05)
-add_subdirectory(lesson_06)
-add_subdirectory(lesson_07)
-add_subdirectory(lesson_08)
+# get and build all subdirectories
+file(GLOB allfiles RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *)
+foreach(child ${allfiles})
+    if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/${child})
+        add_subdirectory(${child})
+    endif()
+endforeach()
+
