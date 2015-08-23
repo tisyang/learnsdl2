@@ -47,10 +47,10 @@ init()
 static bool
 load_media()
 {
-    g_xout = SDL_LoadBMP("../assets/images/xout.bmp");
+    g_xout = SDL_LoadBMP("xout.bmp");
     if(g_xout == NULL) {
         printf("Unable to load image %s! SDL Error: %s\n",
-               "../assets/images/xout.bmp", SDL_GetError());
+               "xout.bmp", SDL_GetError());
         return false;
     }
     return true;

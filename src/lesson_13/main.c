@@ -67,14 +67,14 @@ init()
 static bool
 load_media()
 {
-    g_front = load_texture("../assets/images/fadeout.png");
+    g_front = load_texture("fadeout.png");
     if(g_front == NULL) {
         printf("Failed to load texture image!\n");
         return false;
     }
     SDL_SetTextureBlendMode(g_front, SDL_BLENDMODE_BLEND);
 
-    g_background = load_texture("../assets/images/fadein.png");
+    g_background = load_texture("fadein.png");
     if(g_background == NULL) {
         printf("Failed to load texture image!\n");
         return false;

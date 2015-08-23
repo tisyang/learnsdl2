@@ -66,7 +66,7 @@ init()
 static bool
 load_media()
 {
-    g_sprite = load_texture("../assets/images/ballsprite.png");
+    g_sprite = load_texture("ballsprite.png");
     if(g_sprite == NULL) {
         printf("Failed to load texture image!\n");
         return false;

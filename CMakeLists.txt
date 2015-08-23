@@ -4,8 +4,6 @@ project(learnsdl2)
 include_directories("D:/Develop/mingw_dev_lib/include")
 # libsdl2 library directory
 link_directories("D:/Develop/mingw_dev_lib/lib")
-# set all executable files built into directory "bin/"
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 # turn on all compiler warnings
 add_definitions("-Wall")
 # C99 standard

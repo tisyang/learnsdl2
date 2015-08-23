@@ -58,7 +58,7 @@ init()
 static bool
 load_media()
 {
-    const char *img_path = "../assets/images/loadingpng.png";
+    const char *img_path = "loadingpng.png";
     g_imgsurface = load_surface(img_path);
     if(g_imgsurface == NULL) {
         printf("Failed to load image %s!\n", img_path);

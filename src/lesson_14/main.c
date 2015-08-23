@@ -75,7 +75,7 @@ init()
 static bool
 load_media()
 {
-    g_spritesheet = load_texture("../assets/images/spritesheetfoo.png");
+    g_spritesheet = load_texture("spritesheetfoo.png");
     if(g_spritesheet == NULL) {
         printf("Failed to load texture image!\n");
         return false;

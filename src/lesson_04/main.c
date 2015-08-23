@@ -61,31 +61,31 @@ init()
 static bool
 load_media()
 {
-    g_keypresssurface[KEY_PRESS_SURFACE_DEFAULT] = load_surface("../assets/images/key_press.bmp");
+    g_keypresssurface[KEY_PRESS_SURFACE_DEFAULT] = load_surface("key_press.bmp");
     if(g_keypresssurface[KEY_PRESS_SURFACE_DEFAULT] == NULL) {
         printf("Failed to load default image!\n");
         return false;
     }
 
-    g_keypresssurface[KEY_PRESS_SURFACE_UP] = load_surface("../assets/images/key_up.bmp");
+    g_keypresssurface[KEY_PRESS_SURFACE_UP] = load_surface("key_up.bmp");
     if(g_keypresssurface[KEY_PRESS_SURFACE_UP] == NULL) {
         printf("Failed to load up image!\n");
         return false;
     }
 
-    g_keypresssurface[KEY_PRESS_SURFACE_DOWN] = load_surface("../assets/images/key_down.bmp");
+    g_keypresssurface[KEY_PRESS_SURFACE_DOWN] = load_surface("key_down.bmp");
     if(g_keypresssurface[KEY_PRESS_SURFACE_DOWN] == NULL) {
         printf("Failed to load down image!\n");
         return false;
     }
 
-    g_keypresssurface[KEY_PRESS_SURFACE_LEFT] = load_surface("../assets/images/key_left.bmp");
+    g_keypresssurface[KEY_PRESS_SURFACE_LEFT] = load_surface("key_left.bmp");
     if(g_keypresssurface[KEY_PRESS_SURFACE_LEFT] == NULL) {
         printf("Failed to load left image!\n");
         return false;
     }
 
-    g_keypresssurface[KEY_PRESS_SURFACE_RIGHT] = load_surface("../assets/images/key_right.bmp");
+    g_keypresssurface[KEY_PRESS_SURFACE_RIGHT] = load_surface("key_right.bmp");
     if(g_keypresssurface[KEY_PRESS_SURFACE_RIGHT] == NULL) {
         printf("Failed to load right image!\n");
         return false;

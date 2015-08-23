@@ -48,10 +48,10 @@ init()
 static bool
 load_media()
 {
-    g_stretchedsurface = load_surface("../assets/images/stretching.bmp");
+    g_stretchedsurface = load_surface("stretching.bmp");
     if(g_stretchedsurface == NULL) {
         printf("Failed to load image %s! SDL Error: %s\n",
-               "../assets/images/stretching.bmp", SDL_GetError());
+               "stretching.bmp", SDL_GetError());
         return false;
     }
     return true;

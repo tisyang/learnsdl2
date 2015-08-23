@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
     screen = SDL_GetWindowSurface(window);
 
-    hello = SDL_LoadBMP("../assets/images/helloworld.bmp");
+    hello = SDL_LoadBMP("helloworld.bmp");
 
     SDL_BlitSurface(hello, NULL, screen, NULL);
     SDL_UpdateWindowSurface(window);

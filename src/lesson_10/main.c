@@ -66,13 +66,13 @@ init()
 static bool
 load_media()
 {
-    g_foo = load_texture("../assets/images/foostick.png");
+    g_foo = load_texture("foostick.png");
     if(g_foo == NULL) {
         printf("Failed to load texture image!\n");
         return false;
     }
 
-    g_background = load_texture("../assets/images/greenland.png");
+    g_background = load_texture("greenland.png");
     if(g_background == NULL) {
         printf("Failed to load texture image!\n");
         return false;

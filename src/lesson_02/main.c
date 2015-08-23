@@ -52,10 +52,10 @@ static bool
 load_media()
 {
     bool success = true;
-    g_helloworld = SDL_LoadBMP("../assets/images/helloworld.bmp");
+    g_helloworld = SDL_LoadBMP("helloworld.bmp");
     if(g_helloworld == NULL) {
         printf("Unable to load image %s! SDL Error: %s\n",
-               "../assets/images/helloworld.bmp", SDL_GetError());
+               "helloworld.bmp", SDL_GetError());
         success = false;
     }
     return success;

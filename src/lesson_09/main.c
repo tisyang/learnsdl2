@@ -63,7 +63,7 @@ init()
 static bool
 load_media()
 {
-    g_texture = load_texture("../assets/images/viewport.png");
+    g_texture = load_texture("viewport.png");
     if(g_texture == NULL) {
         printf("Failed to load texture image!\n");
         return false;

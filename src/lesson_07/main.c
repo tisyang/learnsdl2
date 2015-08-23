@@ -63,7 +63,7 @@ init()
 static bool
 load_media()
 {
-    g_texture = load_texture("../assets/images/renderingtexture.png");
+    g_texture = load_texture("renderingtexture.png");
     if(g_texture == NULL) {
         printf("Failed to load texture image!\n");
         return false;

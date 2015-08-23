@@ -65,7 +65,7 @@ init()
 static bool
 load_media()
 {
-    g_colormod = load_texture("../assets/images/colormod.png");
+    g_colormod = load_texture("colormod.png");
     if(g_colormod == NULL) {
         printf("Failed to load texture image!\n");
         return false;
