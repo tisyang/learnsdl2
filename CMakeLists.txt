@@ -8,8 +8,5 @@ link_directories("D:/Develop/mingw_dev_lib/lib")
 add_definitions("-Wall")
 # C99 standard
 add_definitions("-std=c99")
-# force MinGW-w64 generating 32-bit code
-add_definitions("-m32")
-set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -m32")
 
 add_subdirectory(src)
