@@ -17,7 +17,7 @@ Rewrite lesson sample programs in C, not C++. Build with [CMake][7] and [TDM-GCC
     ```shell
     mkdir build
     cd build
-    cmake -G "MinGW files" ..
+    cmake -G "MinGW Makefiles" ..
     mingw32-make
     ```
 
