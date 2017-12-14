@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 2.6)
 project(learnsdl2)
-# libsdl2 include directory
-include_directories("D:/Develop/mingw_dev_lib/include")
-# libsdl2 library directory
-link_directories("D:/Develop/mingw_dev_lib/lib")
 # turn on all compiler warnings
 add_definitions("-Wall")
 # C99 standard
