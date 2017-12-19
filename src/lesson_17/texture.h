@@ -9,7 +9,6 @@
 /* Load individual image as texture */
 SDL_Texture * Texture_Load(SDL_Renderer *renderer, const char *path);
 
-#define _SDL_TF_H
 #ifdef _SDL_TF_H
 /* Load a text rendered texture */
 SDL_Texture * Texture_FromText(SDL_Renderer *renderer, TTF_Font *font, const char *text, SDL_Color color);
